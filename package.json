@@ -35,7 +35,6 @@
     "ng-inline-svg": "^13.0.0",
     "object-path": "^0.11.5",
     "rxjs": "~6.6.0",
-    "socicon": "^3.0.5",
     "tslib": "^2.2.0",
     "zone.js": "~0.11.4"
   },
