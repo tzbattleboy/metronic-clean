@@ -27,11 +27,6 @@ const Routing: Routes = [
       import('../modules/wizards/wizards.module').then((m) => m.WizardsModule),
   },
   {
-    path: 'apps/chat',
-    loadChildren: () =>
-      import('../modules/apps/chat/chat.module').then((m) => m.ChatModule),
-  },
-  {
     path: '',
     redirectTo: '/dashboard',
     pathMatch: 'full',
