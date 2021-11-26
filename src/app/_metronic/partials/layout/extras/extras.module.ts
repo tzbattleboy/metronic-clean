@@ -6,19 +6,16 @@ import { NotificationsInnerComponent } from './dropdown-inner/notifications-inne
 import { UserInnerComponent } from './dropdown-inner/user-inner/user-inner.component';
 import { LayoutScrollTopComponent } from './scroll-top/scroll-top.component';
 import { TranslationModule } from '../../../../modules/i18n';
-import {SearchResultInnerComponent} from "./dropdown-inner/search-result-inner/search-result-inner.component";
 
 @NgModule({
   declarations: [
     NotificationsInnerComponent,
-    SearchResultInnerComponent,
     UserInnerComponent,
     LayoutScrollTopComponent,
   ],
   imports: [CommonModule, InlineSVGModule, RouterModule, TranslationModule],
   exports: [
     NotificationsInnerComponent,
-    SearchResultInnerComponent,
     UserInnerComponent,
     LayoutScrollTopComponent,
   ],
