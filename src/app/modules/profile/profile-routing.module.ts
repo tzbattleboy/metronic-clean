@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { OverviewComponent } from './overview/overview.component';
 import { CampaignsComponent } from './campaigns/campaigns.component';
 import { DocumentsComponent } from './documents/documents.component';
 import { ProjectsComponent } from './projects/projects.component';
@@ -12,10 +11,6 @@ const routes: Routes = [
     path: '',
     component: ProfileComponent,
     children: [
-      {
-        path: 'overview',
-        component: OverviewComponent,
-      },
       {
         path: 'projects',
         component: ProjectsComponent,
