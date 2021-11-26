@@ -4,20 +4,17 @@ import { RouterModule } from '@angular/router';
 import { InlineSVGModule } from 'ng-inline-svg';
 import { NotificationsInnerComponent } from './dropdown-inner/notifications-inner/notifications-inner.component';
 import { UserInnerComponent } from './dropdown-inner/user-inner/user-inner.component';
-import { LayoutScrollTopComponent } from './scroll-top/scroll-top.component';
 import { TranslationModule } from '../../../../modules/i18n';
 
 @NgModule({
   declarations: [
     NotificationsInnerComponent,
     UserInnerComponent,
-    LayoutScrollTopComponent,
   ],
   imports: [CommonModule, InlineSVGModule, RouterModule, TranslationModule],
   exports: [
     NotificationsInnerComponent,
     UserInnerComponent,
-    LayoutScrollTopComponent,
   ],
 })
 export class ExtrasModule {}
