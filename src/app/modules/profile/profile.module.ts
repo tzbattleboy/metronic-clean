@@ -11,7 +11,6 @@ import { ConnectionsComponent } from './connections/connections.component';
 import {
   CardsModule,
   DropdownMenusModule,
-  WidgetsModule,
 } from '../../_metronic/partials';
 
 @NgModule({
@@ -28,7 +27,6 @@ import {
     ProfileRoutingModule,
     InlineSVGModule,
     DropdownMenusModule,
-    WidgetsModule,
     CardsModule,
   ],
 })
