@@ -26,9 +26,7 @@
             "outputPath": "dist/demo1",
             "allowedCommonJsDependencies": [
               "object-path",
-              "apexcharts",
-              "clipboard.js",
-              "prismjs"
+              "clipboard.js"
             ],
             "index": "src/index.html",
             "main": "src/main.ts",
