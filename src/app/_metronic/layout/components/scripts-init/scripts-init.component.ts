@@ -5,7 +5,6 @@ import { Observable, Subscription } from 'rxjs';
 import { LayoutService, LayoutType } from '../../core/layout.service';
 import {
   ToggleComponent,
-  ScrollTopComponent,
   DrawerComponent,
   StickyComponent,
   MenuComponent,
@@ -50,7 +49,6 @@ export class ScriptsInitComponent implements OnInit, OnDestroy {
   pluginsInitialization() {
     setTimeout(() => {
       ToggleComponent.bootstrap();
-      ScrollTopComponent.bootstrap();
       DrawerComponent.bootstrap();
       StickyComponent.bootstrap();
       MenuComponent.bootstrap();

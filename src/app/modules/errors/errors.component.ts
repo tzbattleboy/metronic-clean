@@ -4,7 +4,6 @@ import {
   DrawerComponent,
   MenuComponent,
   ScrollComponent,
-  ScrollTopComponent,
   StickyComponent,
   ToggleComponent,
 } from '../../_metronic/kt/components';
@@ -24,7 +23,6 @@ export class ErrorsComponent implements OnInit {
     this.router.navigate(['dashboard']);
     setTimeout(() => {
       ToggleComponent.bootstrap();
-      ScrollTopComponent.bootstrap();
       DrawerComponent.bootstrap();
       StickyComponent.bootstrap();
       MenuComponent.bootstrap();
